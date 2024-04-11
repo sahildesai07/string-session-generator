@@ -65,7 +65,7 @@
 <p align="center">
 <a href="https://t.me/ultroidofficial_chat"><img src="https://img.shields.io/badge/-Support Gʀᴏᴜᴘ%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>
 <a href="https://t.me/ultroid_official"><img src="https://img.shields.io/badge/-Channel%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>  
-<a href="https://t.me/ultroidxTeam"><img title="Telegram" src="https://img.shields.io/static/v1?label=WD.Zone&message=TG&color=blue-green"></a> 
+<a href="https://t.me/ultroidxTeam"><img title="Telegram" src="https://img.shields.io/static/v1?label=UltroidxTeam&message=TG&color=blue-green"></a> 
 <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%"> 
 </p>
  
