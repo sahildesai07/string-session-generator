@@ -1,8 +1,21 @@
 # SessionGenerator
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4250F7&background=FF512800&center=true&vCenter=true&width=435&lines=%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%8E%F0%9D%90%83%F0%9D%90%9C%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%9F%F0%9D%90%AD+%F0%9D%90%8C%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%AB+%F0%9D%90%99%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%9E%E2%84%A2)](https://git.io/typing-svg)</p>
-<p align="center">
+<div align="center" style="border: 2px solid #e94560; border-radius: 6px; overflow: hidden;">
+  <img src="https://yt3.googleusercontent.com/p9g9i5N55WgCn1mFFjl8iut4BOd0O4RRjn7WB_Silj9JmJ42tE-yhdZ0oR_7m-F4kGHT22Br=s176-c-k-c0x00ffffff-no-rj" alt="Bot" width="150" style="border-radius: 10px;">
+</div>
 
+<p align="center">
+  <a href="https://t.me/ultroid_official">
+    <img src="https://img.shields.io/badge/Ultroid%20%F0%9D%95%8F%20Official-Channel-blue?style=for-the-badge&logo=telegram" alt="Ultroid Official Channel">
+  </a>
+  <a href="https://t.me/ultroidofficial_chat">
+    <img src="https://img.shields.io/badge/Ultroid%20%F0%9D%95%8F%20Official-Group-blue?style=for-the-badge&logo=telegram" alt="Ultroid Official Group">
+  </a>
+</p>
+
+<h1 align="center">
+  <a href="https://telegram.me/ultroid_official">String Session Generator BOT</a>
+</h1>
 ## 🍁 About This SessionGenerator Bot :
 
 ![SessionGenerator](https://graph.org/file/a49dc24b3ffc40b8495fa.jpg)
