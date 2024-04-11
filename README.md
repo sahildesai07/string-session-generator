@@ -63,13 +63,13 @@
 
 ## Connect with me <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
 <p align="center">
-<a href="https://t.me/Op_Topic_Group"><img src="https://img.shields.io/badge/-Wᴅ Tᴏᴘɪᴄ Gʀᴏᴜᴘ%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>
-<a href="https://t.me/WD_Request_Bot"><img src="https://img.shields.io/badge/-𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭,𝐬 𝐁𝐨𝐭%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>  
-<a href="https://t.me/Opleech_WD"><img title="Telegram" src="https://img.shields.io/static/v1?label=WD.Zone&message=TG&color=blue-green"></a> 
+<a href="https://t.me/ultroidofficial_chat"><img src="https://img.shields.io/badge/-Support Gʀᴏᴜᴘ%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>
+<a href="https://t.me/ultroid_official"><img src="https://img.shields.io/badge/-Channel%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>  
+<a href="https://t.me/ultroidxTeam"><img title="Telegram" src="https://img.shields.io/static/v1?label=WD.Zone&message=TG&color=blue-green"></a> 
 <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%"> 
 </p>
  
 -----
-## Credits: [𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭](https://t.me/Farooq_is_KING)
+## Credits: [Blank](https://t.me/ultroidxTeam)
 
-Last Edited on: 13/02/2024
+Last Edited on: 11/04/2024
