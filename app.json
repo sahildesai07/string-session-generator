@@ -1,0 +1,42 @@
+{
+  "name": "String Session Generator",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+  "logo": "https://graph.org/file/a6c0fecdda1a54e6fddba.jpg",
+  "keywords": [
+    "telegram",
+    "string",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/SudoR2spr/SessionGenerator",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Telegram id of the person who will known as owner of the bot.",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "Get this value from cloud.mongodb.com",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
