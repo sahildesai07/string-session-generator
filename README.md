@@ -20,7 +20,7 @@
 
 ### 🚀 Heroku Deployment
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SudoR2spr/SessionGenerator)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahildesai07/string-session-generator)
 
 <details>
 <summary><h3>
