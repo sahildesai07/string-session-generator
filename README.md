@@ -56,20 +56,21 @@
 </details>
 
 ### Credits : 
-
+- [ultroid_official](youtube.com/@ultroidofficial)
 - [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 - [𝐒𝐮𝐝𝐨𝐑2𝐬𝐩𝐫](https://github.com/SudoR2spr)
+
 ### Everyone In This Journey !
 
 ## Connect with me <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
 <p align="center">
-<a href="https://t.me/ultroidofficial_chat"><img src="https://img.shields.io/badge/-Support Gʀᴏᴜᴘ%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>
-<a href="https://t.me/ultroid_official"><img src="https://img.shields.io/badge/-Channel%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>  
-<a href="https://t.me/ultroidxTeam"><img title="Telegram" src="https://img.shields.io/static/v1?label=UltroidxTeam&message=TG&color=blue-green"></a> 
+<a href="https://telegram.dog/ultroidofficial_chat"><img src="https://img.shields.io/badge/-Support Gʀᴏᴜᴘ%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>
+<a href="https://telegram.dog/ultroid_official"><img src="https://img.shields.io/badge/-Channel%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>  
+<a href="https://telegram.dog/ultroidxTeam"><img title="Telegram" src="https://img.shields.io/static/v1?label=UltroidxTeam&message=TG&color=blue-green"></a> 
 <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%"> 
 </p>
  
 -----
-## Credits: [Blank](https://t.me/ultroidxTeam)
+## Credits: [Blank](https://telegram.dog/ultroidxTeam)
 
 Last Edited on: 11/04/2024
