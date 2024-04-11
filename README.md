@@ -18,8 +18,6 @@
 </h1>
 ## 🍁 About This SessionGenerator Bot :
 
-![SessionGenerator](https://graph.org/file/a49dc24b3ffc40b8495fa.jpg)
-
 ### 🚀 Heroku Deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SudoR2spr/SessionGenerator)
