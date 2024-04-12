@@ -1,4 +1,4 @@
-# Generate Session In Your Telegram premium @Opleech
+# YT : youtube.com/ultoridofficial
 # Copyright (c) 2023 WOODcraft
 from pyrogram import filters
 from pyrogram.types import Message
