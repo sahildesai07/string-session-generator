@@ -1,4 +1,4 @@
-# Generate Session In Your Telegram premium @Opleech
+# YT : @ultroidofficial
 # Copyright (c) 2023 WOODcraft
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -11,7 +11,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ❈", url=SUPPORT_CHAT),
             InlineKeyboardButton(
-                text="❈ 𝐎𝐩𝐥𝐞𝐞𝐜𝐡 ❈", url="https://t.me/Opleech_WD"
+                text="❈ Channel ❈", url="https://t.me/Ultroid_official"
             ),
         ],
     ]
