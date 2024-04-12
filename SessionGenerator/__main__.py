@@ -1,4 +1,3 @@
-# Generate Session In Your Telegram premium @Opleech
 # Copyright (c) 2023 WOODcraft
 import asyncio
 import importlib
@@ -25,4 +24,4 @@ async def Opleech_boot():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(Opleech_boot())
-    LOGGER.info("Stopping String Gen Bot...")
+    LOGGER.info("Stopping String Gen Bot... ! help : t.me/ultroidofficial_chat")
