@@ -9,7 +9,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton(text="❈ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 ❈", callback_data="gensession")],
         [
-            InlineKeyboardButton(text="❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ❈", url=SUPPORT_CHAT),
+            InlineKeyboardButton(text="❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ❈", url="https://t.me/SUPPORT_CHAT"),
             InlineKeyboardButton(
                 text="❈ Channel ❈", url="https://t.me/Ultroid_official"
             ),
