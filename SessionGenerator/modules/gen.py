@@ -1,5 +1,4 @@
-
-# Copyright (c) 2023 WOODcraft
+#YT : https://www.youtube.com/@ultroidofficial
 import asyncio
 
 from pyrogram import Client, filters
@@ -53,14 +52,14 @@ async def gen_session(
     try:
         api_id = await Opleech.ask(
             identifier=(message.chat.id, user_id, None),
-            text="❖ Please enterr your API_ID to proceed:",
+            text="❖ Please enter your API_ID to proceed:",
             filters=filters.text,
             timeout=300,
         )
     except ListenerTimeout:
         return await Opleech.send_message(
             user_id,
-            "Time limits reached of 5 minutes\n\n❖ Please start generating session again.",
+            "Time limit reached of 5 minutes\n\n❖ Please start generating the session again.",
             reply_markup=retry_key,
         )
 
@@ -72,7 +71,7 @@ async def gen_session(
     except ValueError:
         return await Opleech.send_message(
             user_id,
-            "The API_ID you sent is invalid.\n\n❖ Please start generating session again.",
+            "The API_ID you sent is invalid.\n\n❖ Please start generating the session again.",
             reply_markup=retry_key,
         )
 
@@ -86,33 +85,32 @@ async def gen_session(
     except ListenerTimeout:
         return await Opleech.send_message(
             user_id,
-            "Time limits reached of 5 minutes.\n\n❖ Please start generating session again.",
+            "Time limit reached of 5 minutes.\n\n❖ Please start generating the session again.",
             reply_markup=retry_key,
         )
 
     if await cancelled(api_hash):
         return
-
     api_hash = api_hash.text
 
     if len(api_hash) < 30:
         return await Opleech.send_message(
             user_id,
-            "he API_HASH you sent is invalid.\n\n❖ Please start generating session again.",
+            "The API_HASH you sent is invalid.\n\n❖ Please start generating the session again.",
             reply_markup=retry_key,
         )
 
     try:
         phone_number = await Opleech.ask(
             identifier=(message.chat.id, user_id, None),
-            text="❖ Please send your phone number in international format like +9113138737832 :",
+            text="❖ Please send your phone number in international format like +9113138737832:",
             filters=filters.text,
             timeout=300,
         )
     except ListenerTimeout:
         return await Opleech.send_message(
             user_id,
-            "Time limits reached of 5 minutes.\n\n❖ Please start generating session again..",
+            "Time limit reached of 5 minutes.\n\n❖ Please start generating the session again..",
             reply_markup=retry_key,
         )
 
@@ -120,7 +118,7 @@ async def gen_session(
         return
     phone_number = phone_number.text
 
-    await Opleech.send_message(user_id, "❖ Trying to send OTP at the given number...")
+    await Opleech.send_message(user_id, "❖ Trying to send OTP to the given number...")
     if telethon:
         client = TelegramClient(StringSession(), api_id, api_hash)
     elif old_pyro:
@@ -139,7 +137,7 @@ async def gen_session(
     except FloodWait as f:
         return await Opleech.send_message(
             user_id,
-            f"Failed to send code for login.\n\n❖ Plese wait for {f.value or f.x} seconds and try again",
+            f"Failed to send code for login.\n\n❖ Please wait for {f.value or f.x} seconds and try again",
             reply_markup=retry_key,
         )
     except (ApiIdInvalid, ApiIdInvalidError, ApiIdInvalid1):
@@ -167,7 +165,7 @@ async def gen_session(
     except ListenerTimeout:
         return await Opleech.send_message(
             user_id,
-            "Time limits reached of 10 minutes\n\n❖ Please start generating your session again..",
+            "Time limit reached of 10 minutes\n\n❖ Please start generating your session again..",
             reply_markup=retry_key,
         )
 
@@ -193,14 +191,14 @@ async def gen_session(
         try:
             pwd = await Opleech.ask(
                 identifier=(message.chat.id, user_id, None),
-                text="❖ Please enter the 2 step verificaton password to continue √",
+                text="❖ Please enter the 2 step verification password to continue √",
                 filters=filters.text,
                 timeout=300,
             )
         except ListenerTimeout:
             return Opleech.send_message(
                 user_id,
-                "Time limits reached of 5 minutes.\n\n❖ Please start generating your session again...",
+                "Time limit reached of 5 minutes.\n\n❖ Please start generating your session again...",
                 reply_markup=retry_key,
             )
 
@@ -221,10 +219,10 @@ async def gen_session(
             )
 
     except Exception as ex:
-        return await Opleech.send_message(user_id, f"ᴇʀʀᴏʀ : <code>{str(ex)}</code>")
+        return await Opleech.send_message(user_id, f"Error: <code>{str(ex)}</code>")
 
     try:
-        txt = "⎙ Here is your {0} String Session\n\n<code>{1}</code>\n\n🦋 A String Session Bot by <a href={2}>❖ Ultroid_offical ❖ ™</a>\n☠ <b>Note :</b> Dont't share your string Your girlfriend 😂 others"
+        txt = "⎙ Here is your {0} String Session\n\n<code>{1}</code>\n\n🦋 A String Session Bot by <a href={2}>❖ Ultroid_offical ❖ ™</a>\n☠ <b>Note :</b> Don't share your string with others"
         if telethon:
             string_session = client.session.save()
             await client.send_message(
@@ -248,7 +246,7 @@ async def gen_session(
         await client.disconnect()
         await Opleech.send_message(
             chat_id=user_id,
-            text=f"⎙ Successfully generated your {ty} String Session √\n\n❖ Please check your saved message for getting it.\n\n❖ A String Generator bot by <a href={SUPPORT_CHAT}>❖ @Ultroid_Offical ❖ ™</a>.",
+            text=f"⎙ Successfully generated your {ty} String Session √\n\n❖ Please check your saved message to get it.\n\n❖ A String Generator bot by <a href={SUPPORT_CHAT}>❖ @Ultroid_Offical ❖ ™</a>.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -273,7 +271,7 @@ async def cancelled(message):
         return True
     elif "/restart" in message.text:
         await message.reply_text(
-            "Sucessfully restarted this bot.", reply_markup=retry_key
+            "Successfully restarted this bot.", reply_markup=retry_key
         )
         return True
     elif message.text.startswith("/"):
