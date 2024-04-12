@@ -1,4 +1,4 @@
-# Generate Session In Your Telegram premium @Opleech
+
 # Copyright (c) 2023 WOODcraft
 import asyncio
 
@@ -224,7 +224,7 @@ async def gen_session(
         return await Opleech.send_message(user_id, f"ᴇʀʀᴏʀ : <code>{str(ex)}</code>")
 
     try:
-        txt = "⎙ Here is your {0} String Session\n\n<code>{1}</code>\n\n🦋 A String Session Bot by <a href={2}>❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™</a>\n☠ <b>Note :</b> Dont't share your string Your girlfriend 😂 others"
+        txt = "⎙ Here is your {0} String Session\n\n<code>{1}</code>\n\n🦋 A String Session Bot by <a href={2}>❖ Ultroid_offical ❖ ™</a>\n☠ <b>Note :</b> Dont't share your string Your girlfriend 😂 others"
         if telethon:
             string_session = client.session.save()
             await client.send_message(
@@ -233,7 +233,7 @@ async def gen_session(
                 link_preview=False,
                 parse_mode="html",
             )
-            await client(JoinChannelRequest("@Op_Topic_Group"))
+            await client(JoinChannelRequest("@ultroidofficial_chat"))
         else:
             string_session = await client.export_session_string()
             await client.send_message(
@@ -241,14 +241,14 @@ async def gen_session(
                 txt.format(ty, string_session, SUPPORT_CHAT),
                 disable_web_page_preview=True,
             )
-            await client.join_chat("Op_Topic_Group")
+            await client.join_chat("ultroidofficial_chat")
     except KeyError:
         pass
     try:
         await client.disconnect()
         await Opleech.send_message(
             chat_id=user_id,
-            text=f"⎙ Successfully generated your {ty} String Session √\n\n❖ Please check your saved message for getting it.\n\n❖ A String Generator bot by <a href={SUPPORT_CHAT}>❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™</a>.",
+            text=f"⎙ Successfully generated your {ty} String Session √\n\n❖ Please check your saved message for getting it.\n\n❖ A String Generator bot by <a href={SUPPORT_CHAT}>❖ @Ultroid_Offical ❖ ™</a>.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
