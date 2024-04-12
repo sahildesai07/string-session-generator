@@ -1,5 +1,4 @@
-# Generate Session In Your Telegram premium @Opleech
-# Copyright (c) 2023 WOODcraft
+
 from os import getenv
 from dotenv import load_dotenv
 
@@ -12,4 +11,4 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_ID = int(getenv("OWNER_ID"))
 
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Op_Topic_Group")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ultroidoffcial_chat")
