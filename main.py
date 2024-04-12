@@ -1,5 +1,6 @@
 # Generate Session In Your Telegram premium @Opleech
 # Copyright (c) 2023 WOODcraft
+# YT = ultroidofficial
 import config
 import time
 import logging
