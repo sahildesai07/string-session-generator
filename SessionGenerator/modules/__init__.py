@@ -1,4 +1,4 @@
-# Generate Session In Your Telegram premium @Opleech
+
 # Copyright (c) 2023 WOODcraft
 import glob
 from os.path import basename, dirname, isfile
